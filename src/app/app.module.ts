@@ -20,7 +20,6 @@ import { AngularFirestore } from '@angular/fire/firestore';
   providers: [
     StatusBar,
     SplashScreen,
-    AngularFirestore,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
